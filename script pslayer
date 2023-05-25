@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("credit lean_domix#5456", "Midnight")
+
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Project Slayer")
+
+Section:NewButton("AutoFarm Level (PC)", "AutoFarm Level PC OP", function()
+    local LoaderUrl = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/NewLoader.lua"
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet(LoaderUrl))()
+end)
+
+
+Section:NewButton("Auto Dangeuon", "AutoFarm Dangeuon OP", function()
+    loadstring(game:HttpGetAsync("https://gist.github.com/NotHubris/16fbe2bf8d9563e09858c5cd2c6fafce/raw"))()
+end)
+
+
+Section:NewButton("AutoFarm Lilly Flower", "AutoFarm Lilly Flower", function()
+    getgenv().TP = true
+getgenv().speed = 250
+getgenv().delay = 0.5 --increase this if u get suck
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/t6c/script/main/src/psFlower.lua"))()
+end)
+
+
+Section:NewButton("AutoFarm Level (Mobile) ", "AutoFarm Level mobile OP", function()
+    local LoaderUrl = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/Mobile.lua"
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet(LoaderUrl))()
+end)
+
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Credit")
+Section:NewLabel("lean_domix#5456 (the scripts are not mine they are public and free!!!)")
