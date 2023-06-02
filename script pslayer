@@ -11,8 +11,8 @@ loadstring(game:HttpGet(LoaderUrl))()
 end)
 
 
-Section:NewButton("Auto Dangeuon", "AutoFarm Dangeuon OP", function()
-    loadstring(game:HttpGetAsync("https://gist.github.com/NotHubris/16fbe2bf8d9563e09858c5cd2c6fafce/raw"))()
+Section:NewButton("Infinity Dangeuon", "AutoFarm Dangeuon OP", function()
+    loadstring(game:HttpGetAsync(("https://pastebinp.com/raw/AhnX80SH")))()
 end)
 
 
