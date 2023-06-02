@@ -32,10 +32,6 @@ loadstring(game:HttpGet(LoaderUrl))()
 end)
 
 
-Section:NewButton("OP script to everything (Key: NotReallyFast) ", "OP Script (BY Skeered Hub)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/krnl', true))()
-end)
-
 
 local Section = Tab:NewSection("Other")
 
@@ -89,4 +85,6 @@ end)
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Credit")
-Section:NewLabel("lean_domix#5456 (The scripts are not mine they are public")
+
+Section:NewLabel("lean_domix#5456")
+Section:NewLabel("https://discord.gg/9B4xwwAgRm")
